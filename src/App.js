@@ -5,8 +5,9 @@ import ValueContext from './newContext.js';
 
 function App() {
   //let [num,setNum]=useState(6);
+  let value=useState(6)
   return (
-    <ValueContext.Provider value={100}>
+    <ValueContext.Provider value={value}>
         <div>
           Hello World App.js
           <Parent></Parent>
